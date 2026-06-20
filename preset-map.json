@@ -1,0 +1,37 @@
+{
+  "_note": "Cross-reference between FXSound (.fac) and EARS (JSON) presets. Use this to find the closest equivalent when switching between apps.",
+  "mappings": [
+    {
+      "genre": "Lo-Fi / Chill",
+      "fxsound": "fxsound/presets/lofi.fac",
+      "ears": "ears/presets/Presets.json#Lo-Fi / Chill",
+      "notes": "FXSound version is warmer with gradual high rolloff. EARS version cuts more aggressively above 7kHz to suit bookshelf speakers."
+    },
+    {
+      "genre": "Hip Hop / Rap",
+      "fxsound": "fxsound/presets/rap.fac",
+      "ears": "ears/presets/Presets.json#Hip Hop",
+      "notes": "FXSound rap boosts 110Hz and vocal mids (1.2–2.2kHz). EARS Hip Hop shifts punch to 229Hz and defers deep bass to the bandpass sub."
+    },
+    {
+      "genre": "Trap / Trap Metal",
+      "fxsound": "fxsound/presets/Trapmetal.fac",
+      "ears": "ears/presets/Presets.json#Hip Hop (Trap)",
+      "notes": "FXSound Trapmetal is more aggressive in the low-mids (110–230Hz). EARS Trap version controls sub bleed and lifts presence for bookshelf clarity."
+    },
+    {
+      "genre": "Pop",
+      "fxsound": "fxsound/presets/Pop.fac",
+      "ears": "ears/presets/Presets.json#Modern Country",
+      "notes": "No direct Pop preset in EARS yet. Modern Country is the closest — bright, vocal-forward, punchy. Consider adding a dedicated Pop preset."
+    }
+  ],
+  "ears_only": [
+    "R&B",
+    "R&B (Smooth)",
+    "Electronic / EDM",
+    "Podcast / Spoken Word",
+    "Wa_Rock"
+  ],
+  "fxsound_only": []
+}
