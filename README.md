@@ -38,7 +38,7 @@ This repo is my personal backup of presets so I never lose them. If you stumbled
 
 1. **Clone this repo**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/my-eq-presets.git
+   git clone https://github.com/muryithe/my-eq-presets.git
    cd my-eq-presets
    ```
 
